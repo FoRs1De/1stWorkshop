@@ -8,7 +8,6 @@
 }
 
 nav {
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,12 +17,14 @@ nav {
 
 nav.unstuck {
     position: absolute;
-    z-index: 1;
+    z-index: 999;
+    width: 100%;
 }
 
 nav.sticky {
     position: sticky;
     top: 0px;
+    z-index: 100;
 }
 
 nav.sticky .nav-logo {
