@@ -103,6 +103,10 @@ nav .nav-right .start-selling a {
     color: #FFFFFF;
 }
 
+nav .nav-right .start-selling a:hover {
+    color: #000000;
+}
+
 nav .nav-right .start-selling:hover {
     background-color: #FF90E8;
 }
