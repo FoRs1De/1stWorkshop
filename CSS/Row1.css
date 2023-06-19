@@ -12,8 +12,17 @@
   width: 50%;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
-  padding: 40px;
   font-size: 1.5em;
+}
+
+.row1Left p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.row1Left h1 {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .row1Left button {
@@ -24,6 +33,7 @@
   border-radius: 4px;
   font-size: 1em;
   width: 50%;
+  margin-left: 40px;
 }
 
 .row1Right {
