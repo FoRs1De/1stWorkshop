@@ -47,6 +47,24 @@ article {
     border-bottom: 2px solid #000000;
 }
 
+article button {
+    background-color: black;
+    color: white;
+    padding: 0.8em;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    min-width: 20rem;
+}
+
+article button:hover {
+    box-shadow: 4px 4px 0 #F2F434;
+    transform: translate(-4px, -4px);
+}
+
 h1 {
     font-size: 6rem;
     text-align: center;
@@ -181,4 +199,96 @@ h2 {
     position: absolute;
     left: 60%;
     top: 80%;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+}
+
+.cta-stack {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.cta-stack p {
+    margin: 1rem auto;
+}
+
+.cta-stack button {
+    margin-top: 2rem;
+}
+
+.money {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.income {
+    margin: 4rem;
+    font-size: 2rem;
+}
+
+.so-much-money {
+    margin-top: 8rem;
+    font-size: 12rem;
+}
+
+.income>p {
+    max-width: 50%;
+    margin: 2rem auto;
+}
+
+.money-image {
+    margin: 8rem 0 0 0;
+    padding: 0;
+}
+
+.money-image>img {
+    width: 100%;
+}
+
+.coin-1 {
+    position: absolute;
+    left: 4rem;
+    top: 10rem;
+}
+
+.coin-1 img {
+    width: 14rem;
+}
+
+.coin-2 {
+    position: absolute;
+    left: 18rem;
+    top: -15rem;
+}
+
+.coin-3 {
+    position: absolute;
+    left: -3rem;
+    top: -4rem;
+}
+
+.coin-4 {
+    position: absolute;
+    right: 10rem;
+    top: -6rem;
+}
+
+.coin-5 {
+    position: absolute;
+    right: 0rem;
+    top: 4rem;
+    overflow-x: hidden;
+    width: 8rem;
+}
+
+.coin-5>img {
+    width: 12rem;
 }
