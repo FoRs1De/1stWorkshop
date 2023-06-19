@@ -1,9 +1,9 @@
-@import '/CSS/footer.css';
-@import '/CSS/header.css';
-@import '/CSS/Row1.css';
-@import '/CSS/row2.css';
-@import '/CSS/row3.css';
-@import '/CSS/bottom-rows.css';
+@import './CSS/footer.css';
+@import './CSS/header.css';
+@import './CSS/Row1.css';
+@import './CSS/row2.css';
+@import './CSS/row3.css';
+@import './CSS/bottom-rows.css';
 
 @font-face {
   font-family: 'Mabry Pro';
