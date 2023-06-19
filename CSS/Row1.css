@@ -43,7 +43,6 @@
   justify-content: center;
   width: 50%;
   border-bottom: 2px solid black;
-  z-index: -1;
 }
 
 .row1Picture {
@@ -73,6 +72,9 @@
 
 .row1Picture button:hover {
   box-shadow: 10px 10px 0px black;
+  box-shadow: 4px 4px 0 black;
+  transform: translate(-4px, -4px);
+  transition: all 0.2s ease-in-out;
 }
 
 .row1Picture button img {
