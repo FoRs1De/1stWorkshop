@@ -1,24 +1,24 @@
-@import "/CSS/footer.css";
-@import "/CSS/header.css";
+@import '/CSS/footer.css';
+@import '/CSS/header.css';
 @import '/CSS/Row1.css';
 @import '/CSS/row2.css';
-@import "/CSS/bottom-rows.css";
-
+@import '/CSS/row3.css';
+@import '/CSS/bottom-rows.css';
 
 @font-face {
-    font-family: 'Mabry Pro';
-    src: url('/fonts/MabryPro-Regular.woff2') format('woff2'),
-        url('/fonts/MabryPro-Regular.woff') format('woff'),
-        url('/fonts/MabryPro-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Mabry Pro';
+  src: url('/fonts/MabryPro-Regular.woff2') format('woff2'),
+    url('/fonts/MabryPro-Regular.woff') format('woff'),
+    url('/fonts/MabryPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-    font-family: 'Mabry Pro', sans-serif;
-    color: #000000;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: 'Mabry Pro', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
