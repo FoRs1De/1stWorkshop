@@ -1,0 +1,108 @@
+.logo {
+    padding: 2rem;
+    border-bottom: 2px solid #000000;
+}
+
+.logo>img {
+    width: calc(100vw - 4rem);
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+    background-color: #FFFFFF;
+}
+
+nav.unstuck {
+    position: absolute;
+    z-index: 1;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+nav.sticky .nav-logo {
+    padding-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav .nav-left {
+    padding-left: 2rem;
+}
+
+nav .nav-left li {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+}
+
+nav .nav-left li a {
+    color: #000000;
+    position: relative;
+}
+
+/* https://css-tricks.com/css-link-hover-effects/#aa-the-right-to-left-color-swap-link-hover-effect */
+nav .nav-left li a::before {
+    content: "";
+    background: #000000;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+nav .nav-left li a:hover::before {
+    width: 100%;
+}
+
+nav .nav-right {
+    display: flex;
+    font-size: 0;
+    justify-content: flex-end;
+}
+
+nav .nav-right li {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 3rem;
+    border-left: 2px solid #000000;
+    cursor: pointer;
+}
+
+nav .nav-right .login a {
+    color: #000000;
+    font-size: 1rem;
+}
+
+nav .nav-right .login:hover {
+    background-color: #FF90E8;
+}
+
+nav .nav-right .start-selling {
+    background-color: #000000;
+    font-size: 1rem;
+    padding-right: 4rem;
+}
+
+nav .nav-right .start-selling a {
+    color: #FFFFFF;
+}
+
+nav .nav-right .start-selling:hover {
+    background-color: #FF90E8;
+}
